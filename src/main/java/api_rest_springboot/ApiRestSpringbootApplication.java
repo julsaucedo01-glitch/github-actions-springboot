@@ -13,6 +13,12 @@ public class ApiRestSpringbootApplication {
     public String sayHi() {
         return "Hello World!";
     }
+
+    @GetMapping("/welcomer")
+    public String sayHi2() {
+        return "Hope you are enjoying";
+    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(ApiRestSpringbootApplication.class, args);
 	}
