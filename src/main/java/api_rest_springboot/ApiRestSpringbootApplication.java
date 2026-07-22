@@ -16,7 +16,7 @@ public class ApiRestSpringbootApplication {
 
     @GetMapping("/welcomer")
     public String sayHiNew() {
-        return "Hope you are enjoying";
+        return "Hope you are enjoying this change";
     }
 
 	public static void main(String[] args) {
