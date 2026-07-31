@@ -27,7 +27,7 @@ jobs:
       with:
         image: julsaucedo01/api-springboot-image
         tags: latest
-        registry: docker.io
+        registry: docker.io/julsaucedo01
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER.PASSWORD }}
