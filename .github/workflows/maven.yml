@@ -23,7 +23,7 @@ jobs:
       run: mvn clean install
 
     - name: Build & push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v7
+      uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: julsaucedo01/api-springboot-image
         tags: latest
