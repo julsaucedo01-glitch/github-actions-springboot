@@ -14,7 +14,7 @@ public class ApiRestSpringbootApplication {
         return "Hello World!";
     }
 
-    @GetMapping("/welcomer")
+    @GetMapping("/yourewelcome")
     public String sayHiNew() {
         return "Hope you are enjoying this change";
     }
